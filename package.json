@@ -1,0 +1,20 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "TypeScript coding practice",
+  "homepage": "https://github.com/bpythonistic/typescript-practice#readme",
+  "bugs": {
+    "url": "https://github.com/bpythonistic/typescript-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpythonistic/typescript-practice.git"
+  },
+  "license": "MIT",
+  "author": "Byron",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,1 +1,1 @@
-# typescript-practice
+# TypeScript Coding Practice
