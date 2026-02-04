@@ -1,2 +1,4 @@
-.*
-!.gitignore
+!.gitignore# pixi environments
+.pixi/*
+!.pixi/config.toml
+node_modules

@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Byron"]
+channels = ["conda-forge"]
+name = "typescript-practice"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+update-nodejs = "npm install"
+setup-tsc = 'tsc --init --outDir "jsFiles" --rootDir "tsFiles" --sourceMap'
+compile-ts = "tsc"
+run-tsserver = "npm start"
+
+[dependencies]
+nodejs = ">=25.2.1,<25.3"
