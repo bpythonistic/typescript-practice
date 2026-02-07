@@ -1,4 +1,6 @@
 !.gitignore# pixi environments
 .pixi/*
+.next/*
+.vscode/*
 !.pixi/config.toml
 node_modules

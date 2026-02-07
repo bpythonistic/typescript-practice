@@ -43,7 +43,6 @@
   },
   "include": [
     "./features/**/*",
-    "./app/**/*",
-    "vite.config.ts"
+    "./app/**/*"
   ]
 }

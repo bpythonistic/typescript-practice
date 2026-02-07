@@ -1,0 +1,4 @@
+.colContainer {
+    flex-direction: column;
+    align-items: center;
+}

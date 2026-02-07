@@ -8,9 +8,19 @@ const practiceCollections = (): Map<string, any> => {
     return collectionMap;
 }
 
+const displayCollections = (): string => {
+    let content: string = "Displaying Collections 2:\n";
+    const collections: Map<string, any> = practiceCollections();
+    collections.forEach((value: any, key: string) => {
+        content += `${key}:${JSON.stringify(value)}\n`;
+    });
+    return content;
+};
+
 // declare a main arrow function that returns a string "Collections Module"
 const main = (): string => {
     return "Collections Module";
 };
 
-export {main, practiceCollections};
+export default main;
+export {practiceCollections, displayCollections};
