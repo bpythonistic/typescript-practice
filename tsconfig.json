@@ -35,7 +35,7 @@
       "esnext"
     ],
     "allowJs": true,
-    "composite": true,
+    "composite": false,
     "noEmit": false,
     "incremental": true,
     "moduleResolution": "bundler",
