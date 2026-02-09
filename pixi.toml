@@ -11,6 +11,7 @@ setup-tsc = 'tsc --init --outDir "jsFiles" --rootDir "tsFiles" --sourceMap'
 compile-ts = "tsc"
 watch-ts = "tsc --noEmit --watch"
 serve-dev = "(pixi run watch-ts &) && (npm run dev &)"
+build = "npm run build"
 
 [dependencies]
 nodejs = ">=25.2.1,<25.3"
