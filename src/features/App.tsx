@@ -43,12 +43,6 @@ const MyButton = ({ title }: { title: string }) => {
     return <button>{title}</button>;
 };
 
-// const MyTextBox = ({content}: {content: string}) => {
-//   return (
-//     <textarea value = {content} />
-//   );
-// };
-
 export default function MyApp() {
     return (
         <div className={styles.colContainer}>

@@ -19,8 +19,8 @@ const displayCollections = (): string => {
 
 // declare a main arrow function that returns a string "Collections Module"
 const main = (): string => {
-    return "Collections Module";
+    let content: string = displayCollections();
+    return content;
 };
 
-export default main;
-export {practiceCollections, displayCollections};
+console.log(main());

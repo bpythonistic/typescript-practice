@@ -23,7 +23,7 @@ This project uses **Pixi** to manage dependencies and the environment, ensuring 
 
 1. **Clone the repository:**
 
-   ```bash
+   ```shell
    git clone https://github.com/bpythonistic/typescript-practice.git
    cd typescript-practice
    ```
@@ -31,22 +31,30 @@ This project uses **Pixi** to manage dependencies and the environment, ensuring 
 2. **Install dependencies and setup environment:**
    Pixi handles the installation of Node.js and npm packages defined in `pixi.toml`.
 
-   ```bash
+   ```shell
    pixi install
    ```
 
-3. **Start the development server:**
+3. **Compile TypeScript files for the first time:**
+   Uses Pixi to compile all the `*.ts` and `*.tsx` files. This only has to be done once to setup the `dist/` folder.
 
-   ```bash
+   ```shell
+   pixi run compile-ts
+   ```
+
+4. **Start the development server:**
+
+   ```shell
    pixi run serve-dev
    ```
 
 ### Installation & Running (Standard NPM)
 
-If you do not have Pixi installed, you can use standard npm commands:
+If you do not have Pixi installed, you can use standard npm and tsc commands:
 
-```bash
+```shell
 npm install
+tsc
 npm run dev
 ```
 

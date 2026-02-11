@@ -42,8 +42,7 @@
     "resolveJsonModule": true,
   },
   "include": [
-    "./features/**/*",
-    "./app/**/*",
+    "./src/**/*",
     "vite.config.ts"
   ]
 }
